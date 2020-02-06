@@ -1,0 +1,12 @@
+@import '../../variables';
+
+.Header {
+    margin: 15px 15px 10px 15px;
+    min-width: 850px;
+    background-color: $background;
+    flex-basis: 100%;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

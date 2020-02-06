@@ -1,0 +1,11 @@
+@import '../../variables';
+
+.Main {
+    margin: 0 15px 15px 15px;
+    background-color: $background;
+    flex-basis: 100%;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
