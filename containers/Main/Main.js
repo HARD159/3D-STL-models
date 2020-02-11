@@ -1,6 +1,6 @@
+import Products from '../../components/Products/Products';
+import productsData from '../../assets/data/products.json';
 import './Main.scss';
-import LocationMapISS from '../../components/Location-map-ISS/location-map-ISS';
-import CrewISS from '../../components/Crew-ISS/Crew-ISS';
 
 class Main {
     constructor() {
@@ -11,10 +11,7 @@ class Main {
         this.main.className = 'Main';
 
         // append
-        this.main.append(
-            new LocationMapISS(),
-            new CrewISS()
-            );
+        this.main.append(new Products(productsData));
 
         // handlers
 

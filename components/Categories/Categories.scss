@@ -1,0 +1,19 @@
+@import '../../variables';
+
+.Categories {
+    
+    .categoryButtons{
+        width: 100%;
+        margin-bottom: 5px;
+        border: solid 3px $background;
+        user-select: none;
+        &:hover {
+            border: solid 3px $text;
+        }
+
+        &.Selected {
+            border: solid 3px $text;
+            cursor: default;
+        }
+    }
+}

@@ -1,0 +1,12 @@
+@import '../../variables';
+
+.Products {
+    .ProductsWrapper {
+        background-color: $background;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px;
+        padding-right: 0;
+        padding-bottom: 0;
+    }
+}

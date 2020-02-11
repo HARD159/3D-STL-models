@@ -1,0 +1,9 @@
+@import '../../variables';
+
+.Footer {
+    background-color: $footerbackground;
+    color: $footerText;
+    flex-basis: 100%;
+    text-align: center;
+    padding: 20px;
+}

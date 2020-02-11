@@ -1,0 +1,17 @@
+@import '../../variables';
+
+.Search {
+    position: relative;
+
+    .fas {
+        position: absolute;
+        right: 10px;
+        top: calc(50% - 1rem / 2);
+        color: $UIcolor;
+        transition: color 300ms ease;
+
+        &.Active {
+            color: $focus;
+        }
+    }
+}

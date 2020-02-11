@@ -1,0 +1,62 @@
+@import '../../../variables';
+
+.Button {
+    border: none;
+    font-size: 1rem;
+    padding: 10px 30px;
+    cursor: pointer;
+    outline: none;
+    font-family: $ff-heading;
+    user-select: none;
+    transition: 
+            border-color 300ms ease,
+            color 300ms ease;
+
+    &.Alternative {
+        border: 3px solid $UIcolor;
+        color: $UIcolor;
+        font-weight: 700;
+        background-color: transparent;
+        transition: 
+            border-color 300ms ease,
+            color 300ms ease;
+
+        &:hover {
+            border-color: $focus;
+            color: $focus;
+        }
+    }
+
+    &.ProductDownload {
+        border: 3px solid $UIcolor;
+        color: $UIcolor;
+        font-weight: 700;
+        background-color: transparent;
+        transition: 
+            border-color 300ms ease,
+            color 300ms ease;
+
+        &:hover {
+            color: $background;
+            background-color: $headerColor;
+        }
+    }
+
+    &.PaginationButton {
+        padding: 10px 15px;
+        margin-right: 5px;
+        border: solid 3px $background;
+
+        &:last-child {
+            margin-right: 0;
+        }
+
+        &:hover {
+            border: solid 3px $UIcolor;
+        }
+
+        &.Selected {
+            border: solid 3px $UIcolor;
+        }
+    }
+}

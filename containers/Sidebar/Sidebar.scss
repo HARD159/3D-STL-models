@@ -1,7 +1,9 @@
 @import '../../variables';
 
-.Main {
+.Sidebar {
+    padding-top: 7px;
     background-color: $background;
+    //border: 5px solid $text;
     //min-height: 500px;
-    flex-basis: calc(100% - 200px);
+    flex-basis: 200px;
 }

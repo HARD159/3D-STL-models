@@ -1,6 +1,7 @@
 import Header from './containers/Header/Header';
-//import Sidebar from './containers/Sidebar/Sidebar';
+import Sidebar from './containers/Sidebar/Sidebar';
 import Main from './containers/Main/Main';
+import Footer from './containers/Footer/Footer';
 import './App.scss';
 
 class App {
@@ -9,7 +10,7 @@ class App {
 
         this.app.className = 'App';
 
-        this.app.append(new Header, new Main);
+        this.app.append(new Header, new Sidebar, new Main, new Footer);
 
         return this.app;
     }

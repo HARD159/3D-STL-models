@@ -1,0 +1,60 @@
+@import '../../../variables';
+
+.Product {
+    flex-basis: calc(100% / 4 - 10px);
+    background-color: $background;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 15px;
+    border: 5px solid white;
+    transition: border-color 300ms ease;
+
+    .ProductImage {
+        display: flex;
+        width: 373.25px;
+        height: 373.25px;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .categoryID {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    h3 {
+        font-family: $ff-common;
+    }
+
+    em {
+        font-family: $ff-common;
+    }
+
+    p {
+        font-family: $ff-common;
+    }
+
+    .wrapperButons {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .ProductDownload{
+        width: 80%;
+    }
+
+    .Basket {
+        margin-left: 3px;
+        border: 3px solid $background;
+        &:hover {
+            border: 3px solid $UIcolor;
+            color: $UIcolor;
+        }
+    }
+
+    &:hover {
+        border: 5px solid $headerColor;
+    }
+}

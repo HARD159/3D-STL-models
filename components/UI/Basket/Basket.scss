@@ -1,0 +1,21 @@
+@import '../../../variables';
+
+.Basket {
+    //border: 3px solid $UIcolor;
+    border: none;
+    color: $UIcolor;
+    background-color: transparent;
+    font-size: 2rem;
+    padding: 10px;
+    cursor: pointer;
+    outline: none;
+    font-family: $ff-heading;
+    transition: 
+            border-color 300ms ease,
+            color 300ms ease;
+    
+         &:hover {
+             border-color: $focus;
+             color: $focus;
+         }
+}

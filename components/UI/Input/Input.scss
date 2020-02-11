@@ -1,0 +1,19 @@
+@import '../../../variables';
+
+.Input {
+    padding: 10px;
+    padding-right: 30px;
+    font-size: 1rem;
+    outline: none;
+    border: 3px solid $headerColor;
+    min-width: 350px;
+    background-color: transparent;
+    border-color: $UIcolor;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    transition: border-color 300ms ease;
+
+    &:focus {
+        border-color: $focus;
+    }
+}
