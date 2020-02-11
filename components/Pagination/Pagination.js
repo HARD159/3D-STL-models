@@ -57,10 +57,7 @@ class Pagination {
         let timerId = setInterval(() => {
             if ( scrollTop > 0) {window.scrollTo(pageXOffset, scrollTop -= 50) }
             else { clearInterval(timerId) }
-            console.log(scrollTop);
         }, 10);
-        
-        // window.scrollTo(pageXOffset, 0);
         
         Products.render();
     }
